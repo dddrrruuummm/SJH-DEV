@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter";
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #071014;
+  color: #edf4ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #baf500;
+  color: #071014;
+}
+
+.container-page {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 3px rgba(186, 245, 0, 0.45);
+}
+
+.signal-grid {
+  background-image: linear-gradient(rgba(186, 245, 0, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(186, 245, 0, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+  animation: grid-drift 18s linear infinite;
+}
+
+.hero-field { position: relative; isolation: isolate; }
+.hero-field::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; border: 1px solid rgba(186, 245, 0, 0.14); }
+.scan-rail { position: absolute; z-index: 1; height: 1px; width: 42vw; background: #baf500; opacity: 0.6; animation: scan-across 7s linear infinite; }
+.scan-rail-b { top: 72%; animation-delay: -3.5s; background: #00b7b2; }
+.scan-rail-c { top: 20%; animation-delay: -1.5s; width: 25vw; }
+.floating-card { animation: hover-shift 5s ease-in-out infinite; }
+.floating-card-delay { animation-delay: -2.5s; }
+.ticker-shell { overflow: hidden; border-block: 1px solid rgba(186, 245, 0, 0.35); background: #0c1c22; }
+.ticker-track { display: flex; width: max-content; gap: 3rem; padding: 0.85rem 0; animation: ticker 26s linear infinite; white-space: nowrap; }
+.ticker-track span { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+.ticker-track strong { color: #baf500; }
+.product-stage { position: relative; }
+.product-stage::before { content: "TRADE SIGNAL / 01"; position: absolute; right: -0.2rem; top: -1.2rem; color: rgba(186, 245, 0, 0.38); font-size: 0.66rem; font-weight: 800; letter-spacing: 0.16em; writing-mode: vertical-rl; }
+
+@keyframes grid-drift { to { background-position: 112px 112px; } }
+@keyframes scan-across { 0% { transform: translateX(-48vw); } 100% { transform: translateX(128vw); } }
+@keyframes hover-shift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes ticker { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .signal-grid, .scan-rail, .floating-card, .ticker-track { animation: none; }
+}
