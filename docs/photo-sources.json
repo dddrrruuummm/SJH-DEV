@@ -1,0 +1,226 @@
+[
+  {
+    "file": "public/photos/garlic.webp",
+    "source": "https://www.pexels.com/photo/1638522/",
+    "download": "https://images.pexels.com/photos/1638522/pexels-photo-1638522.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/apples.webp",
+    "source": "https://www.pexels.com/photo/1352243/",
+    "download": "https://images.pexels.com/photos/1352243/pexels-photo-1352243.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/citrus.webp",
+    "source": "https://www.pexels.com/photo/8789777/",
+    "download": "https://images.pexels.com/photos/8789777/pexels-photo-8789777.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/roots.webp",
+    "source": "https://www.pexels.com/photo/17975566/",
+    "download": "https://images.pexels.com/photos/17975566/pexels-photo-17975566.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/produce.webp",
+    "source": "https://www.pexels.com/photo/3999498/",
+    "download": "https://images.pexels.com/photos/3999498/pexels-photo-3999498.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/servers.webp",
+    "source": "https://www.pexels.com/photo/4508751/",
+    "download": "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/network.webp",
+    "source": "https://www.pexels.com/photo/2881224/",
+    "download": "https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/compute.webp",
+    "source": "https://www.pexels.com/photo/5480781/",
+    "download": "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/gallery/garlic-detail.webp",
+    "title": "Garlic bulbs",
+    "source": "https://www.pexels.com/photo/4197484/",
+    "download": "https://images.pexels.com/photos/4197484/pexels-photo-4197484.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Whole bulbs, natural skin texture, and packing considerations."
+  },
+  {
+    "file": "public/gallery/apple-selection.webp",
+    "title": "Fruit selection",
+    "source": "https://www.pexels.com/photo/fresh-fruits-display-at-a-local-market-30575859/",
+    "download": "https://images.pexels.com/photos/30575859/pexels-photo-30575859.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Produce variety and presentation for seasonal discussions."
+  },
+  {
+    "file": "public/gallery/carrot-harvest.webp",
+    "title": "Harvested roots",
+    "source": "https://www.pexels.com/photo/close-up-of-a-bunch-of-freshly-harvested-carrots-23482372/",
+    "download": "https://images.pexels.com/photos/23482372/pexels-photo-23482372.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Root vegetable form and handling requirements."
+  },
+  {
+    "file": "public/gallery/citrus-selection.webp",
+    "title": "Citrus selection",
+    "source": "https://www.pexels.com/photo/close-up-photo-of-oranges-9610780/",
+    "download": "https://images.pexels.com/photos/9610780/pexels-photo-9610780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Whole fruit, natural skin texture, and variety considerations."
+  },
+  {
+    "file": "public/gallery/server-enclosure.webp",
+    "title": "Server enclosures",
+    "source": "https://www.pexels.com/photo/network-servers-on-an-enclosure-6466141/",
+    "download": "https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Rack-mounted systems and infrastructure hardware."
+  },
+  {
+    "file": "public/gallery/network-switch.webp",
+    "title": "Rack-mounted hardware",
+    "source": "https://www.pexels.com/photo/high-angle-shot-of-network-switch-5050305/",
+    "download": "https://images.pexels.com/photos/5050305/pexels-photo-5050305.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A close view of rack-mounted infrastructure and equipment."
+  },
+  {
+    "file": "public/gallery/fiber-connections.webp",
+    "title": "Fiber connectivity",
+    "source": "https://www.pexels.com/photo/cables-connected-to-fiber-optic-switch-in-building-4497197/",
+    "download": "https://images.pexels.com/photos/4497197/pexels-photo-4497197.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Optical connections and network cabling."
+  },
+  {
+    "file": "public/gallery/patch-panel.webp",
+    "title": "Patch infrastructure",
+    "source": "https://www.pexels.com/photo/patch-cables-plugged-in-patch-panel-5326748/",
+    "download": "https://images.pexels.com/photos/5326748/pexels-photo-5326748.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Structured patching within a network installation."
+  },
+  {
+    "id": "graphics-card",
+    "pexelsId": 6704945,
+    "source": "https://www.pexels.com/photo/graphics-card-in-close-up-photography-6704945/",
+    "file": "public/hardware/graphics-card.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "memory",
+    "pexelsId": 28657061,
+    "source": "https://www.pexels.com/photo/close-up-of-computer-memory-modules-on-gray-surface-28657061/",
+    "file": "public/hardware/memory.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "ssd",
+    "pexelsId": 11216304,
+    "source": "https://www.pexels.com/photo/black-samsung-solid-state-drive-on-white-surface-11216304/",
+    "file": "public/hardware/ssd.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "hard-drives",
+    "pexelsId": 32920312,
+    "source": "https://www.pexels.com/photo/close-up-of-hard-disk-drives-on-white-surface-32920312/",
+    "file": "public/hardware/hard-drives.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "motherboard",
+    "pexelsId": 27977986,
+    "source": "https://www.pexels.com/photo/close-up-of-a-computer-motherboard-with-cpu-fan-and-ram-27977986/",
+    "file": "public/hardware/motherboard.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "laptop",
+    "pexelsId": 4930091,
+    "source": "https://www.pexels.com/photo/laptop-computer-on-desk-4930091/",
+    "file": "public/hardware/laptop.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "display",
+    "pexelsId": 7172661,
+    "source": "https://www.pexels.com/photo/black-flat-screen-computer-monitor-and-black-computer-keyboard-7172661/",
+    "file": "public/hardware/display.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "peripherals",
+    "pexelsId": 28297694,
+    "source": "https://www.pexels.com/photo/modern-workspace-with-keyboard-and-smartphone-28297694/",
+    "file": "public/hardware/peripherals.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "components",
+    "pexelsId": 35713954,
+    "source": "https://www.pexels.com/photo/computer-components-flat-lay-with-cpus-and-graphics-card-35713954/",
+    "file": "public/hardware/components.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  }
+]

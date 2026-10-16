@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rack-server",
+    "file": "public/hardware/rack-server.webp",
+    "prompt": "Create one photorealistic commercial product photograph for the SJH DEV enterprise hardware category catalog. A single unbranded enterprise 2U rack server, three-quarter front angle, realistic silver metal chassis with black front rack ears, orderly hot-swap drive trays, two small status LEDs. Entire product fully visible. Off-white seamless studio surface and background (#f1f3f4), soft natural overhead light, subtle real contact shadow, fine material details, believable engineering, neutral color grading. Landscape 1536x1024 composition, product centered with 15 percent breathing room. No branding, no text, no labels, no watermark, no diagram, no collage, no decorative effects. This is illustrative category imagery, not a particular manufacturer's model.",
+    "sourceFile": "exec-c8adc32d-05ec-4ceb-b732-b8af3633246c.png",
+    "type": "AI-generated unbranded category visualization",
+    "use": "Illustrates a category; not a verified SKU or in-stock product."
+  },
+  {
+    "id": "storage-array",
+    "file": "public/hardware/storage-array.webp",
+    "prompt": "Create one photorealistic commercial product photograph for the SJH DEV enterprise hardware category catalog. A single unbranded enterprise rack storage enclosure, three-quarter front angle, realistic 4U silver chassis with a dense regular array of 24 front hot-swap drive carriers, black handles. Entire product fully visible. Off-white seamless studio surface and background (#f1f3f4), soft natural overhead light, subtle real contact shadow, fine material details, believable engineering, neutral color grading. Landscape 1536x1024 composition, product centered with 15 percent breathing room. No branding, no text, no labels, no watermark, no diagram, no collage, no decorative effects. This is illustrative category imagery, not a particular manufacturer's model.",
+    "sourceFile": "exec-078e573c-8c0d-4292-ba32-6aa017658ed7.png",
+    "type": "AI-generated unbranded category visualization",
+    "use": "Illustrates a category; not a verified SKU or in-stock product."
+  },
+  {
+    "id": "network-switch",
+    "file": "public/hardware/network-switch.webp",
+    "prompt": "Create one photorealistic commercial product photograph for the SJH DEV enterprise hardware category catalog. A single unbranded professional 1U rack network switch, three-quarter front angle, black metal enclosure with 24 orderly RJ45 ports and four compact uplink ports, restrained green status lights. Entire product fully visible. Off-white seamless studio surface and background (#f1f3f4), soft natural overhead light, subtle real contact shadow, fine material details, believable engineering, neutral color grading. Landscape 1536x1024 composition, product centered with 15 percent breathing room. No branding, no text, no labels, no watermark, no diagram, no collage, no decorative effects. This is illustrative category imagery, not a particular manufacturer's model.",
+    "sourceFile": "exec-096935ea-91e5-4ded-a9e5-7d44f49552e2.png",
+    "type": "AI-generated unbranded category visualization",
+    "use": "Illustrates a category; not a verified SKU or in-stock product."
+  }
+]

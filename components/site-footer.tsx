@@ -1,40 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Mail, MapPin } from "lucide-react";
-import { navItems, site } from "@/lib/site";
+import {site} from "@/lib/site";
+export function SiteFooter(){return <footer className="sjh-footer hw-footer"><div className="container-page"><div className="hw-footer-contact"><h2>Have a part number<br/>or a project brief?</h2><a href={"mailto:"+site.email}>{site.email} ↗</a></div><div className="sjh-footer-main"><div><Image src="/brand-mark.svg" alt="" width={44} height={44}/><h2>SJH DEV LIMITED</h2><p>Hardware, electronics and fresh produce.<br/>Commercial inquiries · Hong Kong</p></div><div><h3>Hardware</h3><Link href="/hardware?category=Servers">Servers</Link><Link href="/hardware?category=Storage">Storage</Link><Link href="/hardware?category=Networking">Networking</Link><Link href="/hardware?category=Components">Components</Link><Link href="/hardware?category=Computers%20%26%20electronics">Computers &amp; electronics</Link></div><div><h3>Company &amp; trade</h3><Link href="/about">About SJH DEV</Link><Link href="/services">Procurement &amp; capabilities</Link><Link href="/showcase?q=Fresh">Fresh produce</Link><Link href="/contact">Contact &amp; quotations</Link></div></div><div className="sjh-footer-base"><span>© {new Date().getFullYear()} {site.legalName}</span><Link href="/privacy-policy">Privacy Policy</Link><Link href="/terms">Terms</Link></div></div></footer>;}
 
-export function SiteFooter() {
-  return (
-    <footer className="border-t border-ink/10 bg-ink text-white">
-      <div className="container-page grid gap-10 py-12 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
-        <div>
-          <p className="font-serif text-2xl font-bold">{site.name}</p>
-          <p className="mt-4 max-w-md text-sm leading-6 text-white/70">
-            Fresh origins and enterprise infrastructure, connected through global trade conversations.
-          </p>
-        </div>
-        <div>
-          <p className="text-sm font-bold uppercase tracking-widest text-white/60">Explore</p>
-          <div className="mt-4 grid gap-2 text-sm text-white/75">
-            {navItems.map((item) => (
-              <Link key={item.href} href={item.href} className="hover:text-white">
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white">Terms</Link>
-          </div>
-        </div>
-        <div>
-          <p className="text-sm font-bold uppercase tracking-widest text-white/60">Contact</p>
-          <div className="mt-4 grid gap-3 text-sm text-white/75">
-            <a className="flex gap-2 hover:text-white" href={`mailto:${site.email}`}><Mail size={16} />{site.email}</a>
-            <p className="flex gap-2"><MapPin size={16} />Based in {site.address.city}</p>
-          </div>
-        </div>
-      </div>
-      <div className="border-t border-white/10 py-5 text-center text-xs text-white/50">
-        © 2026 {site.legalName}. All rights reserved.
-      </div>
-    </footer>
-  );
-}

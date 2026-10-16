@@ -5,11 +5,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#071014",
-        pearl: "#edf4ef",
-        blush: "#baf500",
-        wine: "#00b7b2",
-        brass: "#baf500",
+        ink: "#213e35",
+        pearl: "#f6f7f2",
+        blush: "#e6ece2",
+        wine: "#284d42",
+        brass: "#e6ece2",
         mist: "#d9ece4"
       },
       fontFamily: {

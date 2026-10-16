@@ -3,29 +3,30 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { site } from "@/lib/site";
 import "./globals.css";
+import "./hardware.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "SJH DEV | Global Trade, Fresh Origins & Compute",
+    default: "SJH DEV | Servers, Hardware & Electronics",
     template: "%s | SJH DEV"
   },
-  description: "SJH DEV LIMITED connects global fresh produce and enterprise compute infrastructure with qualified commercial trade opportunities.",
+  description: "Explore server, storage, networking, computer components and electronics sourcing with SJH DEV LIMITED, a Hong Kong trading company with a separate fresh produce trade line.",
   keywords: ["global produce trade", "garlic export", "apple export", "enterprise GPU sourcing", "server hardware trade", "Hong Kong trading company", "SJH DEV"],
   openGraph: {
-    title: "SJH DEV | Global Trade, Fresh Origins & Compute",
-    description: "Fresh origins and compute infrastructure, connected through global trade.",
+    title: "SJH DEV | Servers, Hardware & Electronics",
+    description: "Servers, storage, networking, components and electronics. Specific requirements, focused commercial inquiries.",
     url: site.url,
     siteName: site.name,
-    images: [{ url: "/images/sjh-global-hero.png", width: 1536, height: 1024, alt: "SJH DEV global fresh produce and compute trade" }],
+    images: [{ url: "/hardware/rack-server.webp", width: 1536, height: 1024, alt: "SJH DEV server hardware and electronics" }],
     locale: "en_US",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "SJH DEV | Global Trade, Fresh Origins & Compute",
-    description: "Fresh origins and compute infrastructure, connected through global trade.",
-    images: ["/images/sjh-global-hero.png"]
+    title: "SJH DEV | Servers, Hardware & Electronics",
+    description: "Servers, storage, networking, components and electronics. Specific requirements, focused commercial inquiries.",
+    images: ["/hardware/rack-server.webp"]
   },
   alternates: {
     canonical: site.url
@@ -40,16 +41,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     legalName: site.legalName,
     url: site.url,
     email: site.email,
-    description: "Hong Kong company focused on global fresh produce and enterprise technology trade opportunities.",
+    description: "Hong Kong company focused on hardware, electronics and fresh produce trade inquiries.",
     areaServed: "Worldwide"
   };
 
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
         <SiteHeader />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <SiteFooter />
       </body>
     </html>

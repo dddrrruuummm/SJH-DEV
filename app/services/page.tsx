@@ -1,32 +1,3 @@
-import type { Metadata } from "next";
-import { Check } from "lucide-react";
-import { services } from "@/lib/site";
-import { Button } from "@/components/ui/button";
-
-export const metadata: Metadata = {
-  title: "Services",
-  description: "Explore SJH DEV capabilities for fresh produce, enterprise technology, and global trade programs."
-};
-
-export default function ServicesPage() {
-  return (
-    <section className="bg-white py-16 text-ink">
-      <div className="container-page">
-        <p className="eyebrow text-wine">Capabilities</p>
-        <h1 className="mt-4 max-w-3xl text-5xl font-bold leading-tight">Trade capabilities made for decisive, cross-category commercial programs.</h1>
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
-          {services.map((service) => (
-            <div key={service} className="rounded-lg border border-ink/10 bg-pearl p-6">
-              <Check className="text-wine" />
-              <h2 className="mt-4 text-xl font-bold">{service}</h2>
-              <p className="mt-3 text-sm leading-6 text-ink/65">
-                A disciplined framework for moving from initial product interest to a clear conversation about requirements, program fit, and operational next steps.
-              </p>
-            </div>
-          ))}
-        </div>
-        <Button href="/contact" className="mt-9">Open an Inquiry</Button>
-      </div>
-    </section>
-  );
-}
+import type {Metadata} from "next";import {ServicesSection} from "@/components/sections";import Link from "next/link";
+export const metadata:Metadata={alternates:{canonical:"/services"},title:"Capabilities",description:"Produce export coordination and enterprise hardware sourcing inquiries with SJH DEV."};
+export default function Page(){return <><section className="inner-page"><div className="container-page"><h1>Requirements first.</h1><p className="lead">Practical trade discussions start with the right information. These are the details to bring to each line.</p><div className="sjh-service-lines"><article><h2>Produce sourcing &amp; export</h2><ul><li>Product, variety, origin, and grade requirements</li><li>Seasonal quantities and packing formats</li><li>Destination, handling, and cold-chain requirements</li></ul></article><article><h2>Hardware & electronics procurement</h2><ul><li>Server, storage, networking, computer component and electronics requirements</li><li>Model, configuration, and workload context</li><li>Quantity, documentation, destination, and timing</li></ul></article></div><Link className="action" href="/contact">Discuss a requirement ↗</Link></div></section><ServicesSection/></>}
