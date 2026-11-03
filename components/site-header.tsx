@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import {site,navItems} from "@/lib/site";
-function MobileMenu(){return <details className="mobile-menu"><summary>Menu</summary><nav id="mobile-navigation" aria-label="Mobile navigation">{navItems.map(i=><a key={i.href} href={i.href}>{i.label}</a>)}</nav></details>;}
-export function SiteHeader(){return <header className="site-header sjh-hardware-header"><a className="skip-link" href="#main-content">Skip to content</a><div className="hw-utility"><div className="container-page"><span>Commercial hardware &amp; global trade · Hong Kong</span><a href={"mailto:"+site.email}>{site.email}</a></div></div><div className="container-page hw-header-main"><Link className="brand" href="/" aria-label="SJH DEV home"><Image src="/brand-mark.svg" alt="" width={44} height={44} priority/><span>SJH DEV</span></Link><nav className="hw-main-nav" aria-label="Main navigation"><Link href="/hardware">Hardware</Link><Link href="/services">Procurement</Link><Link href="/showcase?q=Food">Food ingredients</Link><Link href="/about">Company</Link></nav><Link href="/contact" className="hw-header-quote">Request a quote ↗</Link><MobileMenu/></div><div className="hw-search-band"><div className="container-page"><form action="/hardware" role="search"><label htmlFor="global-hardware-search">Find hardware</label><input id="global-hardware-search" type="search" name="q" placeholder="Search servers, components, electronics…" /><button type="submit">Search</button></form><nav aria-label="Popular hardware"><Link href="/hardware/rack-servers">Servers</Link><Link href="/hardware/graphics-cards">Graphics cards</Link><Link href="/hardware/memory">Memory</Link><Link href="/hardware/solid-state-drives">SSDs</Link></nav></div></div></header>;}
-
+import {site, navItems} from "@/lib/site";
+export function SiteHeader(){return <header className="site-header food-header">
+  <a className="skip-link" href="#main-content">Skip to content</a>
+  <div className="food-utility"><div className="container-page"><span>Food ingredients trade · Hong Kong</span><a href={"mailto:"+site.email}>{site.email}</a></div></div>
+  <div className="container-page food-header-main"><Link className="food-brand" href="/" aria-label="SJH DEV home"><Image src="/brand-logo.svg" alt="SJH DEV — Food ingredients" width={232} height={64} priority/></Link>
+    <nav className="food-main-nav" aria-label="Main navigation">{navItems.filter(i=>i.href!=="/contact").map(i=><Link key={i.href} href={i.href}>{i.label}</Link>)}</nav>
+    <Link className="action food-header-inquiry" href="/contact">Request a quote ↗</Link>
+    <details className="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{navItems.map(i=><Link href={i.href} key={i.href}>{i.label}</Link>)}</nav></details>
+  </div>
+  <div className="food-search-band"><form className="container-page" action="/showcase" role="search"><label htmlFor="ingredient-search">Find an ingredient</label><input id="ingredient-search" name="q" type="search" placeholder="Search garlic, dried fruit, canned products…"/><button type="submit">Search</button></form></div>
+</header>;}

@@ -1,0 +1,3 @@
+import Image from "next/image";
+import {foodScenes} from "@/lib/food-scenes";
+export function SourcingScenes(){return <section className="food-scene-directory"><div className="container-page"><div className="food-section-heading"><div><h2>Packing and shipment planning.</h2><p>Product form, packing and handling requirements should be reviewed together. These scenes illustrate the details to consider when preparing a sourcing brief.</p></div></div><div className="food-scene-grid">{foodScenes.map(s=><article key={s.slug}><div className="food-scene-photo"><Image src={s.image} alt={s.alt} fill sizes="(max-width:700px) 100vw,50vw"/></div><h3>{s.title}</h3><p>{s.description}</p></article>)}</div></div></section>;}

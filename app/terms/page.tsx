@@ -1,22 +1,3 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {alternates:{canonical:"/terms"},
-  title: "Terms",
-  description: "SJH DEV website terms of service."
-};
-
-export default function TermsPage() {
-  return (
-    <section className="bg-white py-16 text-ink">
-      <div className="container-page max-w-3xl">
-        <h1 className="text-5xl font-bold">Terms of Service</h1>
-        <div className="mt-8 space-y-5 leading-8 text-ink/70">
-          <p>By using this website, you agree to use the information and materials for lawful personal or business inquiry purposes only.</p>
-          <p>Product categories, service descriptions, availability, commercial terms, and program details may change without notice. This website does not process payments or create purchase contracts online.</p>
-          <p>All brand content, images, and design materials are provided for demonstration and may be replaced with final client-approved materials before launch.</p>
-          <p>For questions about these terms, contact contact@sjhdev.com.</p>
-        </div>
-      </div>
-    </section>
-  );
-}
+import type {Metadata} from "next";
+export const metadata:Metadata={title:"Terms",description:"SJH DEV website terms for food product information and sourcing inquiries.",alternates:{canonical:"/terms"}};
+export default function Page(){return <section className="inner-page food-legal"><div className="container-page"><h1>Terms of Service</h1><p>Use the information and materials on this website for lawful personal or business inquiry purposes.</p><p>Product categories introduce the types of food ingredient inquiries we handle. Product and operational images are illustrative. They do not identify a production batch, confirm current stock or depict company-owned facilities.</p><p>Exact specifications, ingredients, origin, packing, documentation, availability, pricing and delivery arrangements are confirmed through quotation. Website information does not create a purchase contract, and this website does not process payments.</p><p>For questions about these terms, contact <a href="mailto:contact@sjhdev.com">contact@sjhdev.com</a>.</p></div></section>;}

@@ -1,15 +1,3 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "standalone",
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.pexels.com"
-      }
-    ]
-  }
-};
-
+import type {NextConfig} from "next";
+const nextConfig:NextConfig={output:"standalone",async redirects(){return [{source:"/hardware/:path*",destination:"/showcase?q=Food",permanent:true}];}};
 export default nextConfig;
