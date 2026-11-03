@@ -1,37 +1,5 @@
 export const gallery = [
   {
-    "id": "garlic-detail",
-    "title": "Garlic bulbs",
-    "group": "Fresh produce",
-    "image": "/gallery/garlic-detail.webp",
-    "description": "Whole bulbs, natural skin texture, and packing considerations.",
-    "alt": "Garlic bulbs \u2014 Whole bulbs, natural skin texture, and packing considerations."
-  },
-  {
-    "id": "apple-selection",
-    "title": "Fruit selection",
-    "group": "Fresh produce",
-    "image": "/gallery/apple-selection.webp",
-    "description": "Produce variety and presentation for seasonal discussions.",
-    "alt": "Fruit selection \u2014 Produce variety and presentation for seasonal discussions."
-  },
-  {
-    "id": "carrot-harvest",
-    "title": "Harvested roots",
-    "group": "Fresh produce",
-    "image": "/gallery/carrot-harvest.webp",
-    "description": "Root vegetable form and handling requirements.",
-    "alt": "Harvested roots \u2014 Root vegetable form and handling requirements."
-  },
-  {
-    "id": "citrus-selection",
-    "title": "Citrus selection",
-    "group": "Fresh produce",
-    "image": "/gallery/citrus-selection.webp",
-    "description": "Whole fruit, natural skin texture, and variety considerations.",
-    "alt": "Citrus selection \u2014 Whole fruit, natural skin texture, and variety considerations."
-  },
-  {
     "id": "server-enclosure",
     "title": "Server enclosures",
     "group": "Enterprise hardware",

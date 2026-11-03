@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     default: "SJH DEV | Servers, Hardware & Electronics",
     template: "%s | SJH DEV"
   },
-  description: "Explore server, storage, networking, computer components and electronics sourcing with SJH DEV LIMITED, a Hong Kong trading company with a separate fresh produce trade line.",
-  keywords: ["global produce trade", "garlic export", "apple export", "enterprise GPU sourcing", "server hardware trade", "Hong Kong trading company", "SJH DEV"],
+  description: "Explore server, storage, networking, computer components and electronics sourcing with SJH DEV LIMITED, a Hong Kong trading company with a separate food ingredients trade line.",
+  keywords: ["food ingredients trade", "dehydrated vegetables", "dried fruit", "canned foods", "enterprise GPU sourcing", "server hardware trade", "Hong Kong trading company", "SJH DEV"],
   openGraph: {
     title: "SJH DEV | Servers, Hardware & Electronics",
     description: "Servers, storage, networking, components and electronics. Specific requirements, focused commercial inquiries.",
@@ -41,7 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     legalName: site.legalName,
     url: site.url,
     email: site.email,
-    description: "Hong Kong company focused on hardware, electronics and fresh produce trade inquiries.",
+    description: "Hong Kong company focused on hardware, electronics and food ingredient trade inquiries.",
     areaServed: "Worldwide"
   };
 
