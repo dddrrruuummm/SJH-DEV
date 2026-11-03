@@ -1,7 +1,7 @@
-import type {Metadata} from "next";
+import {pageMetadata} from "@/lib/seo";
 import {ContactSection} from "@/components/sections";
 import {foods} from "@/lib/foods";
-export const metadata:Metadata={title:"Contact & Quotations",description:"Discuss food ingredient sourcing, product formats, packing and quantities with SJH DEV LIMITED.",alternates:{canonical:"/contact"}};
+export const metadata=pageMetadata({"title": "Contact & Quotations", "description": "Discuss food ingredient sourcing, product formats, packing and quantities with SJH DEV LIMITED.", "path": "/contact"});
 export default async function Page({searchParams}:{searchParams:Promise<{food?:string;product?:string;topic?:string}>}){
   const params=await searchParams;
   const candidate=typeof params.food==="string"?params.food:typeof params.product==="string"?params.product:"";

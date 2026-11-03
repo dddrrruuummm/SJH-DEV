@@ -1,5 +1,8 @@
-import type {Metadata} from "next";
-import {Suspense} from "react";
 import {CollectionExplorer} from "@/components/collection-explorer";
-export const metadata:Metadata={title:"Food Ingredients",description:"Explore dehydrated vegetables, dried mushrooms, seasonings, canned foods, dried and freeze-dried fruit, nuts and seeds.",alternates:{canonical:"/showcase"}};
-export default function Page(){return <section className="food-catalog container-page"><div className="food-page-heading"><h1>Explore the ingredients.</h1><p>Browse by product or category. Share your preferred form, grade, packing and quantity when requesting a quotation.</p></div><Suspense fallback={<p>Loading products…</p>}><CollectionExplorer/></Suspense><p className="food-catalog-note">Product images illustrate the range. Exact specifications, ingredients, packing, origin, availability and delivery terms are confirmed during inquiry.</p></section>;}
+import {foodCategories} from "@/lib/foods";
+import {filterFoods} from "@/lib/food-search";
+import {pageMetadata,collectionSchema,breadcrumbSchema} from "@/lib/seo";
+import {JsonLd} from "@/components/json-ld";
+import Link from "next/link";
+export const metadata=pageMetadata({title:"Food Ingredients",description:"Explore dehydrated vegetables, dried mushrooms, seasonings, canned foods, dried and freeze-dried fruit, nuts and seeds.",path:"/showcase"});
+export default async function Page({searchParams}:{searchParams:Promise<{q?:string|string[]}>}){const params=await searchParams;const raw=typeof params.q==="string"?params.q.slice(0,200):"";const query=raw.toLowerCase()==="fresh"?"":raw;const items=filterFoods({query});return <section className="food-catalog container-page"><JsonLd data={collectionSchema("Food ingredients","/showcase",items)}/><JsonLd data={breadcrumbSchema([{name:"Home",path:"/"},{name:"Products",path:"/showcase"}])}/><div className="food-page-heading"><h1>Explore the ingredients.</h1><p>Browse by product or category. Share your preferred form, grade, packing and quantity when requesting a quotation.</p></div><nav className="food-category-links" aria-label="Ingredient category pages">{foodCategories.map(c=><Link key={c.slug} href={"/products/"+c.slug}>{c.name}</Link>)}</nav><CollectionExplorer key={query} initialQuery={query}/><p className="food-catalog-note">Product images illustrate the range. Exact specifications, ingredients, packing, origin, availability and delivery terms are confirmed during inquiry.</p></section>;}

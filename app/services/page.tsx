@@ -1,6 +1,6 @@
-import type {Metadata} from "next";
+import {pageMetadata} from "@/lib/seo";
 import Link from "next/link";
 import {ServicesSection} from "@/components/sections";
 import {SourcingScenes} from "@/components/sourcing-scenes";
-export const metadata:Metadata={title:"Sourcing & Inquiries",description:"Food ingredient inquiries organized around product form, grade, quantity, packing, documentation and destination.",alternates:{canonical:"/services"}};
+export const metadata=pageMetadata({"title": "Sourcing & Inquiries", "description": "Food ingredient inquiries organized around product form, grade, quantity, packing, documentation and destination.", "path": "/services"});
 export default function Page(){return <><section className="inner-page"><div className="container-page"><h1>The details behind<br/>an ingredient order.</h1><p className="lead">A useful sourcing conversation starts with a clear product brief. Bring the requirements below so the quotation can address your application.</p><div className="food-service-lines"><article><h2>Product requirements</h2><ul><li>Ingredient, variety, form, cut size or powder grade</li><li>Origin, formulation or processing preferences to discuss</li><li>Product documentation and specifications required</li></ul></article><article><h2>Commercial requirements</h2><ul><li>Quantity and preferred inquiry unit</li><li>Pack size, can size, carton or bulk format</li><li>Destination, shipment requirements and timing</li></ul></article></div><Link className="action" href="/contact">Discuss a requirement ↗</Link></div></section><ServicesSection/><SourcingScenes/></>;}
