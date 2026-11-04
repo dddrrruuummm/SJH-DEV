@@ -1,25 +1,22 @@
-# Industry-reference redesign validation — 2026-10-17
+# Complete food-only source delivery — 2026-11-04
 
-ESLint and Next.js webpack production build passed for all five sites. All base routes statically generated. No dependency changes.
+## Scope
+Consolidates the approved food business, food theme, SVG identity, food SEO and PNG/ICO favicon addition. There is no design change or business expansion in this packaging task. All runtime source and assets in this delivery are byte-identical to their final counterparts in the working project; only documentation and removal of unused files differ.
 
-Each site gained 8 unique real Pexels photographs, stored locally as compressed WebP with source/license records. No images generated in this pass.
+## Verification performed
+- A separate copy of this clean delivery passed `npm run build -- --webpack`, including TypeScript and static generation. Existing locked dependencies were reused; no dependency input was changed.
+- Thirteen static content pages were checked for unique titles, one H1, canonical URLs, valid local image references and declarations of the SVG/PNG/ICO food favicons.
+- Catalogue server-render checks covered all 28 products, a two-product garlic search, the five-product dehydrated category, the legacy Fresh query and an empty-result query. Visible item counts match the collection structured data. All eight category counts were checked.
+- The generated sitemap contains 15 unique canonical URLs and 56 valid food-image references. It excludes withdrawn technology URLs and query strings. Generated robots.txt points to the canonical sitemap.
+- The withdrawn base route's generated status is 404. Both old route entry points invoke the framework 404, and the route configuration retains their noindex header without unrelated redirects.
+- All 28 product photos and six operational illustrations are retained without recompression or substitution. All generated favicon response bodies match the included files.
+- The complete ZIP is checked against the final folder byte for byte. It contains 94 files, each well below GitHub's 25 MiB browser per-file limit, with no dependencies, build output, credentials, Git metadata, source-generation scripts or development skills.
 
-Browser checks: desktop 1492px, tablet 768px, mobile 390px; no horizontal overflow. All 35 base routes opened with one h1 per route. Archive item counts: KKANG 20, REDMONT 18, TAIGAUTO 18, SJH 15, WEI 18.
+## Verification limits
+No preview server was started, following the client's standing instruction. No new browser responsive inspection, Lighthouse run or Google indexing result is claimed. This task makes no remote repository change, upload, deployment, domain change or Search Console submission. Earlier source lint passed in the approved website work; this documentation/packaging task uses the production build and focused content/asset checks above.
 
-Search, category filtering, empty state, reset, query-string navigation, component selector, and header product search verified. Native mobile menus tested on all five final-build previews: open, navigate to Contact, arrive with menu closed.
+## Content limits
+Company identity, contact details and domain are inherited client-source facts. Product and operational images are generic generated illustrations, not photographs of actual stock, company facilities or employees. Product specifications, packing, availability, documentation and commercial terms remain subject to inquiry confirmation.
 
-Existing inquiry drafts, SEO, canonicals, sitemap, robots, company configuration and legal routes retained. No Lighthouse or formal WCAG audit claimed. Some full-page captures contain pending lazy-loaded images; final comparison uses visible fold captures.
-
-Local preview only; no production publication. Category photography does not prove company-owned inventory, staff, facilities, certifications, or completed projects. Reference details in INDUSTRY_REFERENCES.md.
-
-## Expansion verification — 2026-10-17
-- ESLint and the production webpack build passed.
-- Each site: 20 HTML routes plus robots.txt and sitemap.xml returned HTTP 200; HTML routes each have one h1, a title, description and canonical. Unknown category detail routes returned 404.
-- Local image/font references were checked against project files; no missing references.
-- Permitted Chrome QA at 1492px desktop, 768px tablet and 390px phone. Primary home/catalog surfaces have no horizontal overflow.
-- Native mobile-menu navigation worked on both sites. Catalog filtering, text search, no-result/reset, query navigation and detail links were exercised. Hardware A–Z sorting was verified.
-- Both detail-to-contact paths populated the selected collection/category and appropriate inquiry topic. The SJH email draft was inspected with sample data; it contained the topic, selected product, name, email and message, and no message was sent.
-- After scrolling through the final pages, REDMONT furniture had 13 loaded content images; SJH home had 17, and its catalog had 12. No broken loaded images.
-- Screenshot records and route audit: ../output/redmont-sjh-expansion/ in the workspace. These local preview artifacts are not production dependencies.
-- The phone headline was shortened, a repeated furniture hero image was replaced with a separate existing photograph, and detail imagery now preserves the whole photograph. Tablet duplicate menu visibility was corrected in SJH.
-- No public deployment, GitHub upload, API, database or new dependency was introduced.
+## Delivery evidence
+The external workspace record output/sjh-full-delivery-2026-11-04 contains the read-only GitHub comparison, obsolete-file list, isolated build copy, server-render results, static metadata/asset audit and final package hashes. These development artifacts are not included in the customer source folder.

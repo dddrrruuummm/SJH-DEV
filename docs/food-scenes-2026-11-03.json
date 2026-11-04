@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ingredient-warehouse",
+    "title": "Warehouse planning",
+    "file": "public/food-scenes/ingredient-warehouse.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: a wide clean commercial food-ingredient warehouse with tall pallet racking and many orderly pallets of plain sealed cardboard cartons and food-grade sacks, deep central aisle, natural roof light, realistic large-scale storage, no company branding. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-eb7e4951-3baf-4c2c-9ea9-6c99d2daa05d.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  },
+  {
+    "id": "bulk-ingredient-stock",
+    "title": "Bulk packing formats",
+    "file": "public/food-scenes/bulk-ingredient-stock.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: a naturally lit storage area for dry food ingredients with a substantial orderly quantity of plain sealed food-grade kraft paper sacks and white lined bulk bags on wooden pallets, bags properly closed, clean dry concrete floor, believable bulk food storage, no loose food on the floor. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-dbd196ea-2ba5-4f56-869f-2d328a161558.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  },
+  {
+    "id": "manual-fruit-packing",
+    "title": "Packing dried fruit",
+    "file": "public/food-scenes/manual-fruit-packing.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: two adult food-packing workers in plain light work coats, hairnets and food-safe gloves carefully placing golden dried mango slices into unbranded transparent food pouches at a clean stainless steel packing table, stainless food trays, natural side light, candid documentary scene, faces unobtrusive and not looking at camera, hands anatomically correct. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-a8d25a7c-ede3-4fd1-8945-da2c1ed8a983.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  },
+  {
+    "id": "carton-preparation",
+    "title": "Carton preparation",
+    "file": "public/food-scenes/carton-preparation.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: close documentary view of gloved adult food-packing staff hands carefully arranging sealed plain silver food tins into an open corrugated shipping carton with fitted cardboard dividers, a few completed cartons in background, clean packing workstation, no open food, believable can and carton scale, anatomically correct hands. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-2e6dc541-5fd7-42a7-acb1-4d2799011310.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  },
+  {
+    "id": "nut-portion-packing",
+    "title": "Product and pack size",
+    "file": "public/food-scenes/nut-portion-packing.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: a food-packing worker in clean plain work coat and food-safe gloves portioning shelled walnut kernels from a stainless steel tray into a transparent food-safe bag at a clean stainless table, compact industrial bench scale with its display turned away from camera, a few finished sealed bags, natural light, believable work in progress, anatomically correct hands. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-78367997-545d-4d18-9df8-0555f135e735.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  },
+  {
+    "id": "pallet-dispatch",
+    "title": "Shipment preparation",
+    "file": "public/food-scenes/pallet-dispatch.webp",
+    "date": "2026-11-03",
+    "tool": "Built-in imagegen",
+    "prompt": "Generate one photorealistic commercial documentary photograph for a food ingredients trading website. Landscape 1536x1024. Subject: a spacious clean dispatch area with several substantial pallets of plain sealed food ingredient cartons neatly stacked and wrapped in clear stretch film, a manual pallet jack beside one pallet, loading bay doors in the far background, soft daylight, realistic working warehouse, no company signs, no trucks with branding. Natural believable materials, neutral daylight, moderate lived-in working detail without clutter, credible food-handling setting. Wide enough to understand the activity; calm editorial composition, no exaggerated cinematic glow, no dramatic artificial fog, no excessive pristine CGI surfaces. No logos, brands, badges, certificates, writing, readable labels, numbers, flags, watermark or collage. Do not imply a named company's owned facility. This is a generic illustrative business scene.",
+    "sourceFile": "exec-063d75e0-bd35-4d77-8083-9995bda82974.png",
+    "type": "Generated illustrative food warehousing or packing scene",
+    "use": "Generic sourcing illustration, not a photograph of actual company inventory, owned facilities, staff, certifications or fulfillment operations."
+  }
+]

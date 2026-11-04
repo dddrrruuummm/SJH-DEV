@@ -1,77 +1,40 @@
-# SJH DEV
+# SJH DEV — Food Ingredients
 
-Servers, storage, networking, computer components, electronics and fresh produce trade.
+Complete source delivery, consolidated 2026-11-04. This replaces the earlier incremental food, SEO and favicon packages. It is not a patch.
 
-English company showcase built with Next.js 16, TypeScript, React and Tailwind CSS. Five hardware groups and 12 product category detail pages, hardware search, filtering, A–Z sorting and prefilled quotation inquiries. The existing fresh produce trade line is retained.
+## Business and scope
+SJH DEV LIMITED, Hong Kong. Commercial inquiries: contact@sjhdev.com. Canonical domain: https://www.sjhdev.com.
 
-This is the complete source project for GitHub and Vercel. Local images, SVG logos, self-hosted fonts and their license files are included. No environment variables, API keys, database or paid services are required.
+An English company showcase and sourcing catalogue: 28 food products across eight ingredient categories, six illustrative warehouse/packing scenes, and an email-draft inquiry form. No hardware or electronics business, shopping cart, payment flow, accounts, database or form backend is included. The form opens a draft in the visitor's email application for review and sending.
 
-## Upload to GitHub
+## Run and deploy
+The existing Next.js 16 / React / TypeScript / Tailwind / Vercel workflow is retained. No environment variables or API keys are required. Run `npm ci`, then `npm run build -- --webpack`. Vercel should use its existing Next.js framework detection and this repository root as the project root. Keep the current domain and Vercel project connection.
 
-1. Unzip the delivery ZIP and open the `SJH-DEV-Trade` folder.
-2. Create an empty GitHub repository.
-3. Upload **the contents inside the company folder** to the repository root. The root should contain `package.json`, `package-lock.json`, `app/`, `components/`, `lib/` and `public/`.
-4. Include the hidden `.gitignore` file. Do not upload the ZIP itself as the website source.
-5. Commit the files.
+This folder's contents belong directly in the repository root alongside `package.json`. Do not upload its enclosing folder or the ZIP itself. Uploading matching paths replaces those files but does not delete older repository files. For an exact replacement, use a local clone and GitHub Desktop: preserve `.git`, replace the project contents, review additions/deletions, and commit/push once. The Chinese delivery guide and obsolete-file checklist are provided outside this source folder.
 
-For an existing repository, update the website source while keeping any intentional repository settings. The delivery contains no Git history or deployment credentials.
+## Content locations
+- `lib/foods.ts`: 28 product records, eight categories, units and product images.
+- `lib/site.ts`: company identity, contact details and navigation.
+- `components/industry-home.tsx`: food homepage.
+- `components/collection-explorer.tsx`: catalogue search and filters.
+- `components/food-product-grid.tsx`: product listing cards.
+- `app/contact/page.tsx` and `components/inquiry-form.tsx`: food inquiry draft.
+- `app/globals.css` and `app/food.css`: established food theme and responsive layout.
+- `public/foods/`: 28 compressed product images.
+- `public/food-scenes/` and `lib/food-scenes.ts`: six generic operational scenes.
+- `public/brand-*.svg`: seed-and-bowl food logo and its light variants.
+- `app/icon.svg`, `app/icon.png` and `app/favicon.ico`: matching food favicons.
+- `public/organization-logo.png`: structured-data organization logo.
+- `lib/seo.ts`, `lib/food-category-seo.ts`: canonical metadata and structured data.
+- `app/products/[category]/page.tsx`: eight static food category pages.
+- `app/sitemap.ts`, `app/robots.ts`: 15 canonical URLs, 56 food-image references and crawler rules.
+- `docs/food-imagery-2026-11-03.json`, `docs/food-scenes-2026-11-03.json`: generation prompts and provenance.
 
-## Deploy with Vercel
+## Withdrawn URLs
+The two entry points under `app/hardware/` deliberately return 404. They provide withdrawal behavior for previously indexed URLs and do not contain any hardware business. `next.config.ts` supplies a `noindex, follow` header for this old path family. The sitemap excludes it. Obsolete product modules, duplicate source copies, unused components, old technology media and unused serif fonts are omitted from this full delivery.
 
-1. Import this GitHub repository into Vercel.
-2. Choose the Next.js framework preset.
-3. Set Root Directory to `./` if the source is at the repository root. For a monorepo, select the company subfolder.
-4. Use `npm ci` as the install command. Keep the Next.js build and output defaults. No environment variables are needed.
-5. Deploy, then connect the company domain. Current canonical URL: https://www.sjhdev.com.
+## Imagery and commercial limits
+All product and operational images are generated generic illustrations, not photographs of actual stock, batches, company-owned facilities or employees. Specifications, grade, origin, packing, documentation, availability, pricing and shipment arrangements require inquiry confirmation. No certification, stock level or fulfillment guarantee is implied. Crossed-out beans and raw grains from the supplied shortlist are excluded; canned sweet corn is included.
 
-Vercel builds from source. Dependency folders, build caches and local Vercel state are excluded. The existing Next.js configuration is preserved.
-
-## Local development and verification
-
-Use Node.js 22 LTS or a compatible version satisfying Next.js (20.9 or newer).
-
-```sh
-npm ci
-npm run dev
-```
-
-Open http://localhost:3000.
-
-```sh
-npm run lint
-npm run build -- --webpack
-```
-
-The explicit webpack option matches the production build verified in this workspace. The standard `npm run build` command remains available for Vercel. For a standalone self-hosted deployment, follow the Next.js standalone output workflow; the source upload here is intended for Vercel's Next.js integration.
-
-## Maintain the website
-
-| Location | Purpose |
-| --- | --- |
-| `lib/site.ts` | Company identity, contact information and core business data |
-| `lib/hardware.ts` | Hardware categories, images and inquiry requirements |
-| `lib/gallery.ts` | Additional category and application photography |
-| `components/industry-home.tsx` | Homepage composition |
-| `components/site-header.tsx`, `site-footer.tsx` | Navigation and footer |
-| `app/hardware/` | Catalog and static category/collection detail pages |
-| `app/globals.css`, `app/hardware.css` | Styles and responsive layouts |
-| `app/contact/page.tsx`, `components/inquiry-form.tsx` | Product-prefilled inquiry and email draft preparation |
-| `app/layout.tsx`, `sitemap.ts`, `robots.ts` | SEO metadata, structured data and crawler files |
-| `public/` | Deployed photographs, generated visuals, logos and fonts |
-| `docs/photo-sources.json` | Internal photo source and license records |
-| `PRODUCT.md`, `DESIGN.md` | Business context, assumptions and visual direction |
-
-Three unbranded hardware category images were generated. Their prompts and provenance are recorded in `docs/generated-imagery.json`. The other newly added hardware images are real stock photography.
-
-Images introduce product categories and application settings. They do not establish owned inventory, completed projects, manufacturer authorization or exact SKUs. Specific prices, stock, configuration and delivery terms are handled through quotation.
-
-The inquiry form validates locally and prepares a prefilled email draft. The visitor reviews and sends it in their own email app. The website does not send or store submissions on a server.
-
-Business facts and open verification items are recorded in `PRODUCT.md`. Core pages include Home, About, Services, Showcase, Contact, Privacy Policy and Terms, plus the hardware catalog and detail pages.
-
-## Delivery contents
-
-The GitHub package retains all runtime images and fonts, their license records, source code and dependency lock file. Original image duplicates are omitted from the delivery when the deployed WebP version is present and the original is not used by the website. The original working project retains those source files.
-
-The package excludes `node_modules/`, `.next/`, local environment files, build artifacts, system metadata, Git history and development-skill tooling. No website was published as part of packaging.
-
+## Verification
+See `docs/QA.md`. Production build and source checks do not imply live browser verification or immediate Google reindexing. No local preview service, remote repository change or public deployment is part of this delivery task.
